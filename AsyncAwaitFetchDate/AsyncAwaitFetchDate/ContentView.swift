@@ -54,7 +54,9 @@ struct ContentView: View {
             .listStyle(.plain)
             .navigationTitle("Dates")
             .navigationBarItems(trailing: Button(action: {
-                // button action
+                Task {
+                    await populateDates()
+                }
             }, label: {
                 Image(systemName: "arrow.clockwise.circle")
             }))
