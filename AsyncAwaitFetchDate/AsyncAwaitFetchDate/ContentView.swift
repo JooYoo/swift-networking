@@ -18,7 +18,7 @@ struct CurrentDate: Codable, Identifiable {
 
 struct ContentView: View {
     
-    private func getDate() async throws -> CurrentDate {
+    private func getDate() async throws -> CurrentDate? {
         // resolve url
         guard let url = URL(string: "https://ember-sparkly-rule.glitch.me/current-date") else {
             fatalError("url not available")
@@ -30,6 +30,21 @@ struct ContentView: View {
         
         return currentDate
     }
+    
+    private func populateDates() async {
+        do {
+            // unwrap the getted date safely
+            guard let currentDate = try await getDate() else {
+                return
+            }
+            // add currentDate to
+            currentDates.append(currentDate)
+        } catch {
+            print(error)
+        }
+    }
+    
+    @State private var currentDates: [CurrentDate] = []
     
     var body: some View {
         NavigationView {
