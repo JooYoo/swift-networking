@@ -11,6 +11,7 @@
 		9A4D521D29024A7100260DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D521C29024A7100260DA8 /* ContentView.swift */; };
 		9A4D521F29024A7300260DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D521E29024A7300260DA8 /* Assets.xcassets */; };
 		9A4D522229024A7300260DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D522129024A7300260DA8 /* Preview Assets.xcassets */; };
+		9A4D522A290A2E7E00260DA8 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D5229290A2E7E00260DA8 /* Webservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9A4D521C29024A7100260DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A4D521E29024A7300260DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4D522129024A7300260DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A4D5229290A2E7E00260DA8 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9A4D521929024A7100260DA8 /* AsyncAwaitFetchDate */ = {
 			isa = PBXGroup;
 			children = (
+				9A4D5228290A2E6C00260DA8 /* Webservice */,
 				9A4D521A29024A7100260DA8 /* AsyncAwaitFetchDateApp.swift */,
 				9A4D521C29024A7100260DA8 /* ContentView.swift */,
 				9A4D521E29024A7300260DA8 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9A4D522129024A7300260DA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A4D5228290A2E6C00260DA8 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D5229290A2E7E00260DA8 /* Webservice.swift */,
+			);
+			path = Webservice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				9A4D521D29024A7100260DA8 /* ContentView.swift in Sources */,
 				9A4D521B29024A7100260DA8 /* AsyncAwaitFetchDateApp.swift in Sources */,
+				9A4D522A290A2E7E00260DA8 /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
