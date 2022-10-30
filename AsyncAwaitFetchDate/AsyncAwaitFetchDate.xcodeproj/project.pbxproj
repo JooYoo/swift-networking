@@ -14,6 +14,7 @@
 		9A4D522A290A2E7E00260DA8 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D5229290A2E7E00260DA8 /* Webservice.swift */; };
 		9A4D522D290B8AA500260DA8 /* CurrentDateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D522C290B8AA500260DA8 /* CurrentDateViewModel.swift */; };
 		9A4D522F290B8DE400260DA8 /* CurrentDateListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D522E290B8DE400260DA8 /* CurrentDateListViewModel.swift */; };
+		9A4D5232290E2F2600260DA8 /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D5231290E2F2600260DA8 /* CurrentDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9A4D5229290A2E7E00260DA8 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		9A4D522C290B8AA500260DA8 /* CurrentDateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateViewModel.swift; sourceTree = "<group>"; };
 		9A4D522E290B8DE400260DA8 /* CurrentDateListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDateListViewModel.swift; sourceTree = "<group>"; };
+		9A4D5231290E2F2600260DA8 /* CurrentDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 			isa = PBXGroup;
 			children = (
 				9A4D521A29024A7100260DA8 /* AsyncAwaitFetchDateApp.swift */,
-				9A4D522B290B8A7800260DA8 /* ViewModel */,
 				9A4D5228290A2E6C00260DA8 /* Webservice */,
-				9A4D521C29024A7100260DA8 /* ContentView.swift */,
+				9A4D5233290E2F2E00260DA8 /* Model */,
+				9A4D522B290B8A7800260DA8 /* ViewModel */,
+				9A4D5230290E2B1400260DA8 /* View */,
 				9A4D521E29024A7300260DA8 /* Assets.xcassets */,
 				9A4D522029024A7300260DA8 /* Preview Content */,
 			);
@@ -90,6 +93,22 @@
 				9A4D522E290B8DE400260DA8 /* CurrentDateListViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9A4D5230290E2B1400260DA8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D521C29024A7100260DA8 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A4D5233290E2F2E00260DA8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D5231290E2F2600260DA8 /* CurrentDate.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4D521D29024A7100260DA8 /* ContentView.swift in Sources */,
+				9A4D5232290E2F2600260DA8 /* CurrentDate.swift in Sources */,
 				9A4D521B29024A7100260DA8 /* AsyncAwaitFetchDateApp.swift in Sources */,
 				9A4D522D290B8AA500260DA8 /* CurrentDateViewModel.swift in Sources */,
 				9A4D522F290B8DE400260DA8 /* CurrentDateListViewModel.swift in Sources */,
