@@ -6,6 +6,9 @@
     <th>
      <a href="https://github.com/JooYoo/swift-networking/tree/async-await/AsyncAwaitFetchDate">Fetch Date</a>
     </th>
+    <th>
+     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/NewsSource">News Source</a>
+    </th>
   </tr>
   <tr>
     <td>
