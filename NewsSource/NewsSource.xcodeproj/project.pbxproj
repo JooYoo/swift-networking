@@ -11,6 +11,7 @@
 		9A4D5243290E834B00260DA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D5242290E834B00260DA8 /* ContentView.swift */; };
 		9A4D5245290E834C00260DA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D5244290E834C00260DA8 /* Assets.xcassets */; };
 		9A4D5248290E834C00260DA8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4D5247290E834C00260DA8 /* Preview Assets.xcassets */; };
+		9A4D525029113BEB00260DA8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4D524F29113BEB00260DA8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9A4D5242290E834B00260DA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9A4D5244290E834C00260DA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4D5247290E834C00260DA8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A4D524F29113BEB00260DA8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		9A4D523F290E834B00260DA8 /* NewsSource */ = {
 			isa = PBXGroup;
 			children = (
+				9A4D524E29113BDA00260DA8 /* Utils */,
 				9A4D5240290E834B00260DA8 /* NewsSourceApp.swift */,
 				9A4D5242290E834B00260DA8 /* ContentView.swift */,
 				9A4D5244290E834C00260DA8 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				9A4D5247290E834C00260DA8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A4D524E29113BDA00260DA8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A4D524F29113BEB00260DA8 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				9A4D5243290E834B00260DA8 /* ContentView.swift in Sources */,
 				9A4D5241290E834B00260DA8 /* NewsSourceApp.swift in Sources */,
+				9A4D525029113BEB00260DA8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
