@@ -14,6 +14,9 @@
     <td>
       <kbd><img src="https://user-images.githubusercontent.com/12739843/198560484-a4d063a5-a6a5-4af2-85ae-b68ae9894241.gif" width="200px" alt="Fetch Date"/></kbd>
     </td> 
+      <td>
+      <kbd>🍃</kbd>
+    </td> 
   </tr>
 </table>
 
