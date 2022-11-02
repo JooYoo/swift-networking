@@ -13,7 +13,9 @@ struct NewsSourceListView: View {
     var body: some View {
         NavigationView {
             List(vm.newsSources, id: \.id) { newsSource in
-                NewsSourceCell(newsSourceCellVm: newsSource)
+                NavigationLink(destination: NewsArticleList(newsSource: newsSource)){
+                    NewsSourceCell(newsSourceCellVm: newsSource)
+                }
             }
             .listStyle(.plain)
             .navigationTitle("News Sources")
