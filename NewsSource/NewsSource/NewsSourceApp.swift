@@ -11,7 +11,7 @@ import SwiftUI
 struct NewsSourceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewsSourceListView()
         }
     }
 }
