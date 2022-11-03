@@ -19,6 +19,13 @@ struct NewsSourceListView: View {
             }
             .listStyle(.plain)
             .navigationTitle("News Sources")
+            .navigationBarItems(trailing: Button(action: {
+                Task{
+                    await vm.getNewsSources()
+                }
+            }, label: {
+                Image(systemName: "arrow.clockwise.circle")
+            }))
             .task {
                 await vm.getNewsSources()
             }
