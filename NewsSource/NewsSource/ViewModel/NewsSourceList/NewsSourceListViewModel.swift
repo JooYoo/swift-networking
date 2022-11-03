@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class NewsSourceListViewModel: ObservableObject {
     
     @Published var newsSources: [NewsSourceCellViewModel] = []
@@ -16,13 +17,10 @@ class NewsSourceListViewModel: ObservableObject {
         do {
             let url = Constants.Urls.sources
             let newsSources = try await Webservice().fetchSources(url: url)
-            DispatchQueue.main.async {
-                self.newsSources = newsSources.map(NewsSourceCellViewModel.init)
-            }
+            self.newsSources = newsSources.map(NewsSourceCellViewModel.init)
         } catch {
             print(error)
         }
-        
     }
     
 }
