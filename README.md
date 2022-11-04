@@ -32,7 +32,9 @@
   </tr>
   <tr>
     <td>
-      <kbd>🍃</kbd>
+      <kbd>
+        <img src="https://user-images.githubusercontent.com/12739843/199968150-b3c83988-de44-4c0e-8b0f-3a48178bed54.gif" width="200px" alt="Combine Weather"/>
+      </kbd>
     </td> 
   </tr>
 </table>
