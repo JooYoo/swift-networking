@@ -48,6 +48,9 @@
      <th>
      <a href="https://github.com/JooYoo/swift-networking/tree/rxswift/TodoList">Rx Todolist</a>
     </th>
+     <th>
+     <a href="https://github.com/JooYoo/swift-networking/tree/rxswift/Weather">Rx Weather</a>
+    </th>
   </tr>
   <tr>
     <td>
@@ -59,6 +62,11 @@
       <kbd>
         🍃
       </kbd>
-    </td> 
+    </td>
+    <td>
+      <kbd>
+        🍃
+      </kbd>
+    </td>
   </tr>
 </table>
