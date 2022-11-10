@@ -14,6 +14,8 @@
 		9AAA6E65291CB60800CEB632 /* RandomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6E64291CB60800CEB632 /* RandomImage.swift */; };
 		9AAA6E68291CB77900CEB632 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6E67291CB77900CEB632 /* Constants.swift */; };
 		9AAA6E6B291CE3C500CEB632 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6E6A291CE3C500CEB632 /* Webservice.swift */; };
+		9AAA6E6D291D470400CEB632 /* RandomImageListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6E6C291D470400CEB632 /* RandomImageListViewModel.swift */; };
+		9AAA6E70291D480C00CEB632 /* RandomImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAA6E6F291D480C00CEB632 /* RandomImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9AAA6E64291CB60800CEB632 /* RandomImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImage.swift; sourceTree = "<group>"; };
 		9AAA6E67291CB77900CEB632 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		9AAA6E6A291CE3C500CEB632 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
+		9AAA6E6C291D470400CEB632 /* RandomImageListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageListViewModel.swift; sourceTree = "<group>"; };
+		9AAA6E6F291D480C00CEB632 /* RandomImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +61,11 @@
 		9AAA6E54291CB2C600CEB632 /* random-image-quote */ = {
 			isa = PBXGroup;
 			children = (
-				9AAA6E55291CB2C600CEB632 /* random_image_quoteApp.swift */,
-				9AAA6E66291CB6A200CEB632 /* Utils */,
-				9AAA6E69291CE3B000CEB632 /* Service */,
 				9AAA6E63291CB5F600CEB632 /* Models */,
+				9AAA6E69291CE3B000CEB632 /* Service */,
+				9AAA6E66291CB6A200CEB632 /* Utils */,
+				9AAA6E6E291D470900CEB632 /* ViewModels */,
+				9AAA6E55291CB2C600CEB632 /* random_image_quoteApp.swift */,
 				9AAA6E57291CB2C600CEB632 /* ContentView.swift */,
 				9AAA6E59291CB2C700CEB632 /* Assets.xcassets */,
 				9AAA6E5B291CB2C700CEB632 /* Preview Content */,
@@ -98,6 +103,15 @@
 				9AAA6E6A291CE3C500CEB632 /* Webservice.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		9AAA6E6E291D470900CEB632 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9AAA6E6C291D470400CEB632 /* RandomImageListViewModel.swift */,
+				9AAA6E6F291D480C00CEB632 /* RandomImageViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +188,9 @@
 				9AAA6E65291CB60800CEB632 /* RandomImage.swift in Sources */,
 				9AAA6E56291CB2C600CEB632 /* random_image_quoteApp.swift in Sources */,
 				9AAA6E6B291CE3C500CEB632 /* Webservice.swift in Sources */,
+				9AAA6E70291D480C00CEB632 /* RandomImageViewModel.swift in Sources */,
 				9AAA6E68291CB77900CEB632 /* Constants.swift in Sources */,
+				9AAA6E6D291D470400CEB632 /* RandomImageListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
