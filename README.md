@@ -51,8 +51,16 @@
      <th>
      <a href="https://github.com/JooYoo/swift-networking/tree/rxswift/Weather">Rx Weather</a>
     </th>
+    <th>
+     <a href="https://github.com/JooYoo/swift-networking/tree/rxswift/v_player">Rx Player</a>
+    </th>
   </tr>
   <tr>
+    <td>
+      <kbd>
+        🍃
+      </kbd>
+    </td>
     <td>
       <kbd>
         🍃
