@@ -29,6 +29,9 @@
     <th>
      <a href="https://github.com/JooYoo/swift-networking/tree/combine/combine-weather">Combine Weather</a>
     </th>
+    <th>
+     <a href="https://github.com/JooYoo/swift-networking/tree/combine/hacker-news">Combine Hacker News</a>
+    </th>
   </tr>
   <tr>
     <td>
