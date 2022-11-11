@@ -8,7 +8,7 @@
 import Foundation
 
 @MainActor
-class RandomImageListViewModel {
+class RandomImageListViewModel:ObservableObject {
     @Published var randomImages: [RandomImageViewModel] = []
     
     func getRandomImageList(ids: [Int]) async {
