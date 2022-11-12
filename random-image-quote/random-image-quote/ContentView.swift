@@ -11,19 +11,30 @@ struct ContentView: View {
     @ObservedObject private var vm = RandomImageListViewModel()
     
     var body: some View {
-        List(vm.randomImages){ randomImage in
-            HStack {
-                randomImage.image.map { image in
-                    Image(uiImage: image)
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
+        NavigationView {
+            List(vm.randomImages){ randomImage in
+                HStack {
+                    randomImage.image.map { image in
+                        Image(uiImage: image)
+                            .resizable()
+                            .aspectRatio(contentMode: .fit)
+                    }
+                    Text(randomImage.quote)
                 }
-                Text(randomImage.quote)
             }
+            .task {
+                await vm.getRandomImageList(ids: Array(100...200))
+            }
+            .navigationTitle("Random")
+            .navigationBarItems(trailing: Button(action: {
+                Task{
+                    await vm.getRandomImageList(ids: Array(100...200))
+                }
+            }, label: {
+               Image(systemName: "arrow.clockwise.circle")
+            }))
         }
-        .task {
-            await vm.getRandomImageList(ids: Array(100...200))
-        }
+        
     }
 }
 
