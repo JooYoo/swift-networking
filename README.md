@@ -4,10 +4,13 @@
 <table>
   <tr>
     <th>
-     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/AsyncAwaitFetchDate">Fetch Date</a>
+     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/AsyncAwaitFetchDate">Async Date</a>
     </th>
     <th>
-     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/NewsSource">News Source</a>
+     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/NewsSource">Async NewsSource</a>
+    </th>
+     <th>
+     <a href="https://github.com/JooYoo/swift-networking/tree/async-await/random-image-quote">Async RandomQuote</a>
     </th>
   </tr>
   <tr>
