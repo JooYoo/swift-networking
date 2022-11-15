@@ -17,11 +17,16 @@
     <td>
       <kbd><img src="https://user-images.githubusercontent.com/12739843/198560484-a4d063a5-a6a5-4af2-85ae-b68ae9894241.gif" width="200px" alt="Fetch Date"/></kbd>
     </td> 
-      <td>
+    <td>
       <kbd>
         <img src="https://user-images.githubusercontent.com/12739843/199783178-f35823df-d490-4c2f-a9f5-81b3497b8c92.gif" width="200px" alt="News Source"/>
       </kbd>
-    </td> 
+    </td>
+    <td>
+      <kbd>
+        🍃
+      </kbd>
+    </td>
   </tr>
 </table>
 
