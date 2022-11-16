@@ -24,7 +24,7 @@
     </td>
     <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/202233516-080a5aa0-53be-4996-ad58-57673cb8f39c.gif" width="200px" alt="Random image quote"/>
       </kbd>
     </td>
   </tr>
