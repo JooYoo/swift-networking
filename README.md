@@ -49,7 +49,7 @@
     </td>
      <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/203123558-1dbc63c2-7a2c-4a5c-a350-ffda4fe586e7.gif" width="200px" alt="Combine Weather"/>              
       </kbd>
     </td> 
   </tr>
