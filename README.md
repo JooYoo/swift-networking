@@ -74,7 +74,7 @@
   <tr>
     <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/185584963-79d8c424-d560-43c9-be27-ca61d33accb7.gif" width="200px" alt="uikit news"/>
       </kbd>
     </td>
     <td>
