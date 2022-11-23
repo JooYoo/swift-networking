@@ -79,7 +79,7 @@
     </td>
     <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/185155327-adc16fed-cb79-4bd2-b194-c4de863bc057.gif" width="200px" alt="uikit todo"/>
       </kbd>
     </td>
     <td>
