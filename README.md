@@ -74,17 +74,17 @@
   <tr>
     <td>
       <kbd>
-        <img src="https://user-images.githubusercontent.com/12739843/185584963-79d8c424-d560-43c9-be27-ca61d33accb7.gif" width="200px" alt="uikit news"/>
+        <img src="https://user-images.githubusercontent.com/12739843/185584963-79d8c424-d560-43c9-be27-ca61d33accb7.gif" width="200px" alt="news"/>
       </kbd>
     </td>
     <td>
       <kbd>
-        <img src="https://user-images.githubusercontent.com/12739843/185155327-adc16fed-cb79-4bd2-b194-c4de863bc057.gif" width="200px" alt="uikit todo"/>
+        <img src="https://user-images.githubusercontent.com/12739843/185155327-adc16fed-cb79-4bd2-b194-c4de863bc057.gif" width="200px" alt="todo"/>
       </kbd>
     </td>
     <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/186199779-4afa21e5-fcc3-4ec8-95b3-d2e87ab36c0c.gif" width="200px" alt="weather"/>
       </kbd>
     </td>
     <td>
