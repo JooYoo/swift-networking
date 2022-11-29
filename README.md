@@ -96,3 +96,17 @@
 </table>
 
 ## Completion Handler
+<table>
+   <tr>
+    <th>
+     title link
+    </th>
+  </tr>
+  <tr>
+    <td>
+      <kbd>
+        🍃
+      </kbd>
+    </td>
+  </tr>
+</table>
