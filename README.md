@@ -1,7 +1,7 @@
-* [SwiftNetworking](#Swift Networking)
-  * [Async/Await](##Async/Await)
-  * [Combine](##Combine)
-  * [RxSwift](##RxSwift)
+* [SwiftNetworking](#SwiftNetworking)
+* [Async/Await](##Async/Await)
+* [Combine](##Combine)
+* [RxSwift](##RxSwift)
 
 # Swift Networking
 
