@@ -1,15 +1,10 @@
-* [SwiftNetworking](#SwiftNetworking) 
-* [Async/Await](##Async/Await)
-* [Combine](##Combine)
-* [RxSwift](##RxSwift)
-* [CompletionHandler](##CompletionHandler)
-* [test](#test)
-
-<a name="SwiftNetworking"/>
-
 # SwiftNetworking
 
-<a name="Async/Await"/>
+- [SwiftNetworking](#SwiftNetworking) 
+  - [Async/Await](#Async/Await)
+  - [Combine](#Combine)
+  - [RxSwift](#RxSwift)
+  - [CompletionHandler](#CompletionHandler)
 
 ## Async/Await
 
@@ -42,8 +37,6 @@
   </tr>
 </table>
 
-<a name="Combine"/>
-
 ## Combine
 <table>
   <tr>
@@ -67,8 +60,6 @@
     </td> 
   </tr>
 </table>
-
-<a name="RxSwift"/>
 
 ## RxSwift
 <table>
@@ -110,8 +101,6 @@
   </tr>
 </table>
 
-<a name="CompletionHandler"/>
-
 ## CompletionHandler
 <table>
    <tr>
@@ -127,7 +116,3 @@
     </td>
   </tr>
 </table>
-
-<a name="test"/>
-
-# test
