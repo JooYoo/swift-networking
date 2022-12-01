@@ -111,7 +111,7 @@
   <tr>
     <td>
       <kbd>
-        🍃
+        <img src="https://user-images.githubusercontent.com/12739843/205113020-a0a27230-ea2b-48a1-a81b-0d72605a4ab7.gif" width="200px" alt="Async PostList"/>
       </kbd>
     </td>
   </tr>
